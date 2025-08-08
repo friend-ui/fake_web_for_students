@@ -1,107 +1,106 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <title>政务通告平台</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>衡阳市教育政务网 - 学校信息 - 衡阳市所有中学开学通知</title>
     <style>
-        body {
-            font-family: "微软雅黑", sans-serif;
-            margin: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
+      :root {
+        color-scheme: light;
+        --text: #1f2328;
+        --muted: #666;
+        --line: #e5e6eb;
+        --brand: #0d6efd;
+        --bg: #fff;
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", sans-serif; }
+      a { color: var(--brand); text-decoration: none; }
+      a:hover { text-decoration: underline; }
 
-        header {
-            background-color: #004a99;
-            color: white;
-            padding: 20px 40px;
-            text-align: center;
-        }
+      .topbar { font-size: 12px; color: var(--muted); border-bottom: 1px solid var(--line); }
+      .topbar .inner { max-width: 1080px; margin: 0 auto; padding: 8px 16px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
 
-        nav {
-            background-color: #003366;
-            padding: 10px 40px;
-            color: white;
-        }
+      .site-nav { border-bottom: 1px solid var(--line); }
+      .site-nav .inner { max-width: 1080px; margin: 0 auto; padding: 12px 16px; display: flex; gap: 16px; align-items: center; justify-content: space-between; }
+      .site-name { font-weight: 600; }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-right: 20px;
-        }
+      .crumb { background: #fafafa; border-bottom: 1px solid var(--line); }
+      .crumb .inner { max-width: 1080px; margin: 0 auto; padding: 10px 16px; font-size: 14px; color: var(--muted); }
 
-        main {
-            padding: 40px;
-            max-width: 1000px;
-            margin: auto;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
+      .wrap { max-width: 800px; margin: 0 auto; padding: 24px 16px 64px; }
+      h1 { font-size: 28px; line-height: 1.35; font-weight: 700; margin: 0 0 12px 0; text-align: left; }
+      .meta { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
+      .article p { font-size: 16px; line-height: 1.9; margin: 0 0 16px 0; }
+      .related { border-top: 1px solid var(--line); margin-top: 32px; padding-top: 16px; }
 
-        .notice {
-            border-bottom: 1px solid #ccc;
-            padding: 20px 0;
-        }
-
-        .notice h2 {
-            margin: 0;
-            color: #004a99;
-        }
-
-        .notice time {
-            font-size: 14px;
-            color: #777;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #eee;
-            margin-top: 40px;
-            font-size: 14px;
-            color: #555;
-        }
+      footer { border-top: 1px solid var(--line); background: #fafafa; }
+      footer .inner { max-width: 1080px; margin: 0 auto; padding: 20px 16px; color: var(--muted); font-size: 13px; }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="inner">
+        <span>中央人民政府门户网</span>
+        <span>| 湖南省人民政府门户网</span>
+        <span>| 衡阳市人民政府门户网</span>
+      </div>
+    </div>
 
-<header>
-    <h1>中华人民共和国 政务通告平台</h1>
-    <p>权威发布 · 实时更新 · 服务公众</p>
-</header>
+    <div class="site-nav">
+      <div class="inner">
+        <div class="site-name">衡阳市教育政务网</div>
+        <nav>
+          <a href="https://www.hengyang.gov.cn/edu/">网站首页</a>
+          <span> · </span>
+          <a href="https://www.hengyang.gov.cn/edu/">新闻中心</a>
+          <span> · </span>
+          <a href="https://www.hengyang.gov.cn/edu/">政务公开</a>
+          <span> · </span>
+          <a href="https://www.hengyang.gov.cn/edu/">网上办事</a>
+          <span> · </span>
+          <a href="https://www.hengyang.gov.cn/edu/">互动交流</a>
+        </nav>
+      </div>
+    </div>
 
-<nav>
-    <a href="#">首页</a>
-    <a href="#">最新通告</a>
-    <a href="#">政策文件</a>
-    <a href="#">政务公开</a>
-    <a href="#">联系我们</a>
-</nav>
+    <div class="crumb">
+      <div class="inner">当前位置：<a href="https://www.hengyang.gov.cn/edu/">首页</a> &gt; 新闻中心 &gt; 学校信息 &gt;</div>
+    </div>
 
-<main>
-    <section class="notice">
-        <h2>关于加强台风“红霞”防范工作的紧急通知</h2>
-        <time>发布日期：2025年8月8日</time>
-        <p>根据最新气象预报，台风“红霞”将于近期影响沿海地区，请各单位加强防范，及时组织撤离低洼区域人员，确保人民生命财产安全。</p>
-    </section>
+    <main class="wrap">
+      <h1>衡阳市所有中学开学通知</h1>
+      <div class="meta">来源：衡阳市教育局　发布时间：2025-8-8 10:56</div>
 
-    <section class="notice">
-        <h2>2025年全国节能宣传周活动安排</h2>
-        <time>发布日期：2025年8月5日</time>
-        <p>为推动绿色低碳发展，定于2025年8月10日至8月16日开展节能宣传周活动，主题为“绿色发展 节能先行”。</p>
-    </section>
+      <article class="article">
+        <p>各位家长好</p>
+        <p>接上级湖南省衡阳市教育部门统一通知，教学部门研究决定，全市中学于8月15日（周六）提前开学。</p>
 
-    <section class="notice">
-        <h2>关于调整中小学秋季开学时间的通知</h2>
-        <time>发布日期：2025年8月1日</time>
-        <p>为保障师生健康，经研究决定，2025年秋季学期中小学开学时间延后至8月26日。</p>
-    </section>
-</main>
+        <p><strong>一、开学注意事项：</strong></p>
+        <p>1、学生到校时，要求所有学生先到班级报道</p>
+        <p>2、学校多次对学生进行安全教育，家长也要认真履行监护职责，做好学生的安全工作。</p>
+        <p>3、家长督促学生把完成假期作业按照假期放假要求整理完毕，各科分科整理，各套分套整理，稿纸需要夹在本套作业内。进班先交作业，作业检查完毕，作业不合格的要求家长带孩子回家补齐作业。</p>
 
-<footer>
-    版权所有 © 2025 国家政务信息管理中心 | 京ICP备XXXXXX号
-</footer>
+        <p><strong>二、到校注意事项：</strong></p>
+        <p>1、学生到校后抓紧时间整理宿舍床铺和教室书籍，非特殊情况不得迟到（特殊情况必须及时向班主任请假）。</p>
+        <p>2、家长和学生共同检查所带物品。（学习用品、常备药品、等）</p>
+        <p>3、到校时注意安全，拼车的家长请自己提前联系车，并保证能随时与孩子联系上。</p>
+        <p>4、严禁携带手机、电话手表、网络小说、打火机、香烟、酒、刀具、健身器材等违禁物品入校。否则将按严重违纪处理停课反省，请家长务必高度重视。</p>
+        <p>5、学生入校时一律不佩戴饰品，尤其是金银首饰类。</p>
+        <p>6、开学之前请家长督促学生理发，学生头型，不得烫发染发，男生不许留长发。</p>
 
-</body>
-</html>
+        <p><strong>三、具体返校时间安排如下：</strong> 高二8月15日下午15:00</p>
+        <p>学校将组织全校于8月16日上午至8月17日进行检测。</p>
+        <p>请各年级严格遵守开学时间，安排部署好开学测试各项工作，及时通知家长学生。 将于8月15日开学，另外再次强调，家长朋友加强假期的作业监督，高二上期时间紧任务重把握每一分每一秒</p>
+      </article>
+    </main>
+
+    <footer>
+      <div class="inner">
+        <div>主办：衡阳市教育局　衡阳市人民政府办公室　承办：衡阳市数据局　地址：衡阳市华新开发区长丰大道34号</div>
+        <div>邮编：421001　电话：0734-8811333　网站标识码：4304000038　网站地图</div>
+        <div>备案序号：湘ICP备05002289号-1　湘公网安备 43040802000074号</div>
+      </div>
+    </footer>
+  </body>
+  </html>
